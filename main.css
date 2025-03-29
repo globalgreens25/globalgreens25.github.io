@@ -128,8 +128,8 @@ body{
 .container {
   position: relative;
   text-align: center;
-  opacity: .5
   color: white;
+  opacity: .5
 }
 
 /* Centered text */
