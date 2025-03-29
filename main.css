@@ -132,12 +132,11 @@ body{
   text-align: center;
 }
 
-/* Make only the image transparent */
 .container img {
     width: 100%;
     height: auto;
     display: block;
-    opacity: 0.5; /* Adjust transparency */
+    opacity: 0.75;
 }
 
 /* Centered text */
