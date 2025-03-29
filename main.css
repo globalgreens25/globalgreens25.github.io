@@ -125,11 +125,12 @@ body{
 } 
 */
 
-
-
 .container {
   position: relative;
   text-align: center;
+  width: 100vw;  /* 100% of the viewport width */
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden;
 }
 
 .container img {
@@ -137,6 +138,7 @@ body{
     height: auto;
     display: block;
     opacity: 0.75;
+    object-fit: cover;
 }
 
 /* Centered text */
