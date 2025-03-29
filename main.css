@@ -128,14 +128,14 @@ body{
 .bannerContainer {
   position: relative;
   text-align: center;
-  width: 100%;  /* 100% of the viewport width */
+  min-width: 100%;  /* 100% of the viewport width */
   object-position: center;
   height: 400px; /* Adjust height as needed */
   overflow: hidden;
 }
 
 .bannerContainer img {
-    width: 100%;
+    min-width: 100%;
     height: auto;
     display: block;
     opacity: 0.75;
