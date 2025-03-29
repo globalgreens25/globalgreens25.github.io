@@ -103,6 +103,37 @@ body{
     letter-spacing: 1px;
 }
 
+#bannerContainer {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    background: url('indexbg.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#sloganHeader, #sloganSub {
+    position: relative; /* Ensures text is above the background */
+    z-index: 2;
+    color: white; /* Adjust for readability */
+}
+
+/* Optional: Add a dark overlay for better contrast */
+#bannerContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+    z-index: 1;
+}
+
 .subHeader{
     color:rgb(241 239 228);
     font-size:var(--subHeaderSize);
