@@ -144,8 +144,10 @@ body{
 .centered {
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 50%;
   transform: translate(-50%, -50%);
+  width: 80%; /* Adjust this to control how wide the text block is */
+  max-width: 900px; /* Prevents text from becoming too wide on large screens */
 }
 
 #sloganHeader{
