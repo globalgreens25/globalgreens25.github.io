@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" style="background:#9fcea5;background-attachment: fixed; background-color:#9fcea5;">
+    <head>
+        
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <link rel="preload" as="image" href="leaf.png">
+        <link rel="preload" as="image" href="res/launch.png">
+        <link rel="preload" as="image" href="res/rover.png">
+        
+        <link rel="preload" as="image" href="res/spacecenter.png">
+        <link rel="preload" as="image" href="res/zerog.png">
+        <link rel="preload" as="image" href="res/fitness.png">
+        <link rel="preload" as="image" href="res/recovery.png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet"> <!--GOOD FONT-->
+	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+	    
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,600,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+        <link id="mainStylesheet" rel="stylesheet" href="main.css">
+        <link rel="icon" href="res/favicon.png">
+        <title>Home | Global Greens</title>
+         
+    </head>
+    
+    <body>
+        
+        <div id="stickyHeader">
+            
+            <div>
+                <h2 id="headerLogo" onclick="window.open('index.html','_self')"><img src="leaf.png" alt = "leaf logo">Global Greens</h2>
+            </div>
+            
+            <div style="display: grid;align-items: center">
+                <div>
+                    <h3 class="pageLink" onclick="window.open('sustainability.html','_self')">Our Approach and Sustainability</h3>
+                    <h3 class="pageLink" onclick="window.open('menu.html','_self')">Menu</h3>
+                    <h3 class="pageLink" onclick="window.open('sources.html','_self')">Sources</h3>
+                </div>
+            </div>
+        </div>
+        
+        
+        <br><br>
+        
+        
+        
+        
+        
+        <div id="desktopHeader">
+            <h1 id="sloganHeader" class="bigHeader"><span class="creamText">Growing the path to</span><br><span class="creamText">a GREENER future.</span></h1>
+            <h2 id="sloganSub">One <span style="font-weight: 600">sustainable plant</span> at a time.</h2>
+        </div>
+        
+        <img id="parallaxEarth" src="res/bigearth.png">
+
+        
+        <!--Mobile version of the parallax earth scene-->
+        <div id="mobileHeader">
+            <br><br><br>
+            <h1><span class="creamText">slogan</span><br><span class="creamText">here</span></h1>
+            <p>One <span style="font-weight: 600">giant leap</span> at a time.</p>
+            <img id="mobileEarth" src="res/smallearth.png">
+        </div>
+
+    
+        <div class="bigGap"></div>
+
+
+        <!-- Basic information section explaining the company-->
+        <div class="imageBlurb grayBox">
+
+            <div>
+                <img id="blurbImage">
+
+            </div>
+
+            <div class="infoSection">
+                <h1 class="subHeader">hehe<span id="typewrite" style="color:rgb(160 100 255)"></span></h1>
+                <p>yeahhh <span onclick="window.open('menu.html','_self')" style="font-weight:600;cursor: pointer" class="creamText">wooo</span>) yuh</p>
+            </div>
+
+        </div>
+
+        <div class="bigGap"></div>
+        
+
+        
+        <!--preload images-->
+        <div style="display: none">
+            <img src="res/aldrin.png">
+            <img src="res/launch.png">
+            <img src="res/rover.png">
+            
+            <img src="res/spacecenter.png">
+            <img src="res/zerog.png">
+            <img src="res/fitness.png">
+            <img src="res/recovery.png">
+        </div>
+        
+        
+        <h1 class="subHeader" style="text-align:center">yayy vegan</h1>
+        <h2 class="gradientSub"><span class="creamText">woo <i>italics</i>yeah</span></h2>
+        <br><br><br>
+        
+        <div id="roadmapSlide" class="grayBox">
+            <div id="slideContent">
+                <img id="rmSlideImage">
+                
+                <div style="display:flex;justify-content: space-between;">
+                    <button class="slideButton" style="margin-left: 0px" onclick="prevRmSlide()"><img class="slideButtonImg" src="res/leftarrow.svg"></button>
+                    <div>
+                        <h3 id="rmSlideHeader"></h3>
+                        <p id="rmSlideSub"></p>
+                    </div>
+                    <button class="slideButton" style="margin-right: 0px" onclick="nextRmSlide()"><img class="slideButtonImg" src="res/rightarrow.svg"></button>
+                </div>
+                
+            </div>
+            
+            <div id="rmDotContainer"><span class="rmSideDot"></span></div>
+            
+        </div>
+
+        
+        <br><br><br>
+        
+        <div id="footer"><p>© 2025 Global Greens, Inc.</p><img onclick="window.open('https://emilychen27.github.io/')" src="res/github-mark-white.png"></div>
+        <br>
+        
+        
+        <script src="scripts/effects/fade.js"></script>
+        <script src="scripts/effects/circlepath.js"></script>
+        <script src="scripts/effects/typewriter.js"></script>
+        <script src="scripts/effects/parallax.js"></script>
+        
+        <script src="scripts/page-system/page-system.js"></script>
+        
+        <script src="scripts/roadmap/roadmap.js"></script>
+        
+        <script src="scripts/mobile/mobile.js"></script>
+   
+        
+    </body>
+    
+</html>
