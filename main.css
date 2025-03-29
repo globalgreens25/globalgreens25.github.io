@@ -128,7 +128,7 @@ body{
 .bannerContainer {
   position: relative;
   text-align: center;
-  width: 100vw;  /* 100% of the viewport width */
+  width: 100%;  /* 100% of the viewport width */
   object-position: center;
   height: 400px; /* Adjust height as needed */
   overflow: hidden;
