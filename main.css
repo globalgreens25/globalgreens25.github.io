@@ -127,8 +127,8 @@ body{
 
 .container {
   position: relative;
-  opacity: .5
   text-align: center;
+  opacity: .5
   color: white;
 }
 
