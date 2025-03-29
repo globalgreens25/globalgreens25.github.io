@@ -139,6 +139,7 @@ body{
     display: block;
     opacity: 0.75;
     object-fit: cover;
+    transform: scale(1.2);
 }
 
 /* Centered text */
