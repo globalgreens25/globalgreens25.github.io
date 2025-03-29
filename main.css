@@ -116,13 +116,14 @@ body{
     font-weight: 600;
     text-align: center;
 }
-
+/*
 #bannerContainer {
     position: relative;
     width: 100%;
-    height: 400px; /* Adjust height as needed */
+    height: 400px; 
     overflow: hidden;
-}
+} 
+*/
 
 .container {
   opacity: .5
