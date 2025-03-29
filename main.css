@@ -132,6 +132,7 @@ body{
   object-position: center;
   height: 400px; /* Adjust height as needed */
   overflow: hidden;
+  left: 0;
 }
 
 .bannerContainer img {
@@ -140,7 +141,6 @@ body{
     display: block;
     opacity: 0.75;
     object-fit: cover;
-    /*transform: scale(1.2);*/
 }
 
 /* Centered text */
