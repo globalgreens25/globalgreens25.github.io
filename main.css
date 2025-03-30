@@ -130,7 +130,7 @@ body{
   text-align: center;
   min-width: 100vw;  /* 100% of the viewport width */
   object-position: center;
-  height: 400px; /* Adjust height as needed */
+  height: 800px; /* Adjust height as needed */
   overflow: hidden;
   margin: 0;      /* Removes any default margin */
   padding: 0;
