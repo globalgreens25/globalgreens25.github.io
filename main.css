@@ -135,6 +135,9 @@ body{
   overflow: hidden;
   margin: 0;      /* Removes any default margin */
   padding: 0;
+  top:0;
+  left:0;
+  right:0;
 }
 
 .bannerContainer video {
