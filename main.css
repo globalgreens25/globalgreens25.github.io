@@ -137,7 +137,7 @@ body{
   padding: 0;
 }
 
-.bannerContainer img {
+.bannerContainer video {
     min-width: 100%;
     height: auto;
     display: block;
