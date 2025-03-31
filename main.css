@@ -330,15 +330,15 @@ body{
     justify-content: center;
 }
 .price-col {
-    width:500px;
+    width:425px;
     background: #f1e6c6;
     background-color: #f1e6c6;
     padding: 30px;
     text-align: center;
     margin:20px;
-    display: flex;
-    justify-content: space-between;  /* Space between text and image */
-    align-items: center;
+    display: grid;
+    /*justify-content: space-between;  /* Space between text and image */
+    /*align-items: center;*/
 }
 .price-col h2{
     font-size: var(--priceTitleSize);
@@ -359,13 +359,11 @@ body{
     font-family: 'Slackside One';
 }
 .price-col img{
-    /*float: right;
+    float: right;
     margin-left: 20px;
     text-align: right;
     display: block;
-    margin-left: auto;*/
-    max-width: 100px; /* Optional: Limit the image size */
-    height: auto;
+    margin-left: auto;
 }
 .price-col button {
     font-family: 'Poppins';
