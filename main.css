@@ -332,15 +332,15 @@ body{
 .price-col {
     width:350px;
     background: #f1e6c6;
+    background-color: #f1e6c6;
     padding: 30px;
-    border-radius: 10px;
     text-align: center;
     margin:20px;
     display: grid;
 }
 .price-col h3{
     font-size: 22px;
-    color: #ddd;
+    color: #f4f3e4;
 }
 .price-col h2{
     font-size: var(--priceTitleSize);
