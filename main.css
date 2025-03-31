@@ -136,6 +136,8 @@ body{
   margin: 0;      /* Removes any default margin */
   padding: 0;
   top: 0;
+  left: 0;
+  right: 0;
 }
 
 .bannerContainer video {
@@ -144,6 +146,7 @@ body{
     display: block;
     opacity: 0.75;
     object-fit: cover;
+    top: 0;
 }
 
 .bannerContainer img {
