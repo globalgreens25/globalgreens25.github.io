@@ -374,6 +374,8 @@ body{
     grid-column: 2;   /* Image on the right (second column) */
     /*align-self: center;*/
     margin-top: 60px;
+    width: 150px;  /* Increase the width of the image */
+    height: auto;
 }
 .price-col button {
     font-family: 'Poppins';
