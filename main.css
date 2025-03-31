@@ -344,12 +344,12 @@ body{
     margin: 0;
     font-weight: 600;
     color: #635a47;
-    text-align: left;
 }
 .price-col h3{
     font-size: 22px;
     color: #635a47;
     font-family: 'Slackside One';
+    text-align: left;
 }
 .price-col p{
     text-align: left;
