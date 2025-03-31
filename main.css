@@ -338,22 +338,27 @@ body{
     margin:20px;
     display: grid;
 }
-.price-col h3{
-    font-size: 22px;
-    color: #635a47;
-    font-family: 'Slackside One';
-}
 .price-col h2{
     font-size: var(--priceTitleSize);
     font-family: 'Slackside One';
     margin: 0;
     font-weight: 600;
     color: #635a47;
+    text-align: left;
+}
+.price-col h3{
+    font-size: 22px;
+    color: #635a47;
+    font-family: 'Slackside One';
 }
 .price-col p{
     text-align: left;
     color: #635a47;
     font-family: 'Slackside One';
+}
+.price-col img{
+    float: right;
+    margin-left: 20px;
 }
 .price-col button {
     font-family: 'Poppins';
