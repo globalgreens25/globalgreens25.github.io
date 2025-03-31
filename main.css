@@ -131,11 +131,11 @@ body{
   text-align: center;
   min-width: 100vw;  /* 100% of the viewport width */
   object-position: center;
-  height: 100vh; /* Adjust height as needed */
+  height: 75vh; /* Adjust height as needed */
   overflow: hidden;
   margin: 0;      /* Removes any default margin */
   padding: 0;
-  right:2px;
+  top: 0;
 }
 
 .bannerContainer video {
