@@ -339,6 +339,9 @@ body{
     display: grid;
     /*justify-content: space-between;  /* Space between text and image */
     /*align-items: center;*/
+    grid-template-columns: 1fr auto; /* 1fr for text, auto for image */
+    grid-gap: 20px; /* Optional: adds space between text and image */
+    align-items: center; /* Vertically aligns both text and image */
 }
 .price-col h2{
     font-size: var(--priceTitleSize);
