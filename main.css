@@ -34,7 +34,7 @@ body{
 
 .grayBox{
     border: 1px solid #887e55;
-    box-shadow: 0 0 15px f4f3e4;
+    box-shadow: 0 0 15px #f4f3e4;
     background-color: #f1e6c6;
     /*border-radius: 15px;*/
     padding: 15px;
