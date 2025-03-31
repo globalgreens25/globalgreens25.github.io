@@ -47,12 +47,12 @@ body{
     right:0;
     padding:15px;
     color:white;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(109,141,91,0.3);
     backdrop-filter: blur(50px);
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    /*border-bottom: 1px solid rgba(255,255,255,0.2);*/
     display:flex;
     justify-content: space-between;
-    z-index:9999;
+    z-index:999999;
 }
 
 #mobileNavbar,#mobileHeader,#burgerPopup{
