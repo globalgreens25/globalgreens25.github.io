@@ -367,6 +367,7 @@ body{
     text-align: right;
     display: block;
     margin-left: auto;
+    justify-self: end;
 }
 .price-col button {
     font-family: 'Poppins';
