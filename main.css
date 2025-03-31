@@ -356,14 +356,13 @@ body{
     color: #635a47;
     font-family: 'Slackside One';
     text-align: left;
+    grid-column: 1;
 }
 .price-col p{
     text-align: left;
     color: #635a47;
     font-family: 'Slackside One';
-}
-.price-col .text {
-    grid-column: 1;  /* Text on the left (first column) */
+    grid-column: 1;
 }
 .price-col img{
     float: right;
