@@ -442,7 +442,8 @@ body{
     margin: auto;
     opacity: 0.3;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    color: white;
 }
 
 #footer p{
