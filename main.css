@@ -340,7 +340,7 @@ body{
 }
 .price-col h3{
     font-size: 22px;
-    color: #f4f3e4;
+    color: #000;
 }
 .price-col h2{
     font-size: var(--priceTitleSize);
