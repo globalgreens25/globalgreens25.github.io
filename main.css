@@ -336,7 +336,9 @@ body{
     padding: 30px;
     text-align: center;
     margin:20px;
-    display: grid;
+    display: flex;
+    justify-content: space-between;  /* Space between text and image */
+    align-items: center;
 }
 .price-col h2{
     font-size: var(--priceTitleSize);
@@ -357,11 +359,13 @@ body{
     font-family: 'Slackside One';
 }
 .price-col img{
-    float: right;
+    /*float: right;
     margin-left: 20px;
     text-align: right;
     display: block;
-    margin-left: auto;
+    margin-left: auto;*/
+    max-width: 100px; /* Optional: Limit the image size */
+    height: auto;
 }
 .price-col button {
     font-family: 'Poppins';
