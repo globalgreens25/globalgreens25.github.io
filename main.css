@@ -339,7 +339,7 @@ body{
     display: grid;
     /*justify-content: space-between;  /* Space between text and image */
     /*align-items: center;*/
-    grid-template-columns: 1fr auto; /* 1fr for text, auto for image */
+    /*grid-template-columns: 1fr auto; /* 1fr for text, auto for image */
     grid-template-rows: auto auto;  /* Adjust rows for proper alignment */
     grid-gap: 20px; /* Optional: adds space between text and image */
 }
@@ -362,7 +362,7 @@ body{
     text-align: left;
     color: #635a47;
     font-family: 'Slackside One';
-    grid-column: 1;
+    grid-column: span 2;
 }
 .price-col img{
     float: right;
@@ -373,7 +373,7 @@ body{
     justify-self: end;
     grid-column: 2;   /* Image on the right (second column) */
     /*align-self: center;*/
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .price-col button {
     font-family: 'Poppins';
