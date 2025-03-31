@@ -359,6 +359,9 @@ body{
 .price-col img{
     float: right;
     margin-left: 20px;
+    text-align: right;
+    display: block;
+    margin-left: auto;
 }
 .price-col button {
     font-family: 'Poppins';
