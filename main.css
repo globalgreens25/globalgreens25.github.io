@@ -373,6 +373,7 @@ body{
     justify-self: end;
     grid-column: 2;   /* Image on the right (second column) */
     /*align-self: center;*/
+    margin-top: 20px;
 }
 .price-col button {
     font-family: 'Poppins';
