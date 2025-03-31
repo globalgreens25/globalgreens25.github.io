@@ -340,16 +340,18 @@ body{
 }
 .price-col h3{
     font-size: 22px;
-    color: #000;
+    color: #635a47;
 }
 .price-col h2{
     font-size: var(--priceTitleSize);
     font-family: var(--headerFont);
     margin: 0;
     font-weight: 600;
+    color: #635a47;
 }
 .price-col p{
     text-align: left;
+    color: #635a47;
 }
 .price-col button {
     font-family: 'Poppins';
