@@ -147,6 +147,7 @@ body{
     opacity: 0.75;
     object-fit: cover;
     top: 0;
+    position: absolute;
 }
 
 .bannerContainer img {
@@ -155,6 +156,8 @@ body{
     display: block;
     opacity: 0.75;
     object-fit: cover;
+    position: absolute;
+    top: 0;
 }
 
 /* Centered text */
