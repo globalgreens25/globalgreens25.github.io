@@ -183,7 +183,9 @@ body{
 
 .quote {
     text-align: center;
-    font-family:
+    font-family: 'Charm':
+    font-size: 60px;
+}
 
 #sloganHeader{
     text-align: center;
