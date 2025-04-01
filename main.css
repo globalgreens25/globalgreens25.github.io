@@ -118,6 +118,12 @@ body{
     font-weight: 600;
     text-align: center;
 }
+
+.quote {
+    text-align: center;
+    font-family: 'Charm':
+    font-size: 60px;
+}
 /*
 #bannerContainer {
     position: relative;
@@ -179,12 +185,6 @@ body{
   min-height:50%;
   max-height:50%;
   max-width: 900px; /* Prevents text from becoming too wide on large screens */
-}
-
-.quote {
-    text-align: center;
-    font-family: 'Charm':
-    font-size: 60px;
 }
 
 #sloganHeader{
