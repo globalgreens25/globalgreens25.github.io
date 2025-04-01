@@ -131,7 +131,7 @@ body{
   text-align: center;
   min-width: 100vw;  /* 100% of the viewport width */
   object-position: center;
-  height: 75vh; /* Adjust height as needed */
+  height: 100vh; /* Adjust height as needed */
   overflow: hidden;
   margin: 0;      /* Removes any default margin */
   padding: 0;
@@ -337,11 +337,6 @@ body{
     text-align: center;
     margin:20px;
     display: grid;
-    /*justify-content: space-between;  /* Space between text and image */
-    /*align-items: center;*/
-    /*grid-template-columns: 1fr auto; /* 1fr for text, auto for image */
-    grid-template-rows: auto auto;  /* Adjust rows for proper alignment */
-    grid-gap: 20px; /* Optional: adds space between text and image */
 }
 .price-col h2{
     font-size: var(--priceTitleSize);
@@ -349,22 +344,23 @@ body{
     margin: 0;
     font-weight: 600;
     color: #635a47;
-    grid-column: span 2;
 }
 .price-col h3{
     font-size: 22px;
     color: #635a47;
     font-family: 'Slackside One';
     text-align: left;
-    grid-column: 1;
+    margin-top: 5px;  /* Reduce top margin */
+    margin-bottom: 5px;
 }
 .price-col p{
     text-align: left;
     color: #635a47;
     font-family: 'Slackside One';
-    grid-column: span 2;
+    margin-top: 5px;  /* Reduce top margin */
+    margin-bottom: 5px;
 }
-.price-col img{
+/*.price-col img{
     float: right;
     margin-left: 20px;
     text-align: right;
@@ -373,10 +369,10 @@ body{
     justify-self: end;
     grid-column: 2;   /* Image on the right (second column) */
     /*align-self: center;*/
-    margin-top: 100px;
+    /*margin-top: 100px;
     width: 150px;  /* Increase the width of the image */
-    height: auto;
-}
+    /*height: auto;
+}*/
 .price-col button {
     font-family: 'Poppins';
     font-weight: 800;
