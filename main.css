@@ -181,6 +181,10 @@ body{
   max-width: 900px; /* Prevents text from becoming too wide on large screens */
 }
 
+.quote {
+    text-align: center;
+    font-family:
+
 #sloganHeader{
     text-align: center;
     border-bottom: 10px;
