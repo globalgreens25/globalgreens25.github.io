@@ -198,6 +198,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
+    display: flex; /* Ensures proper centering */
     width: auto;
 }
 
@@ -208,7 +209,9 @@ body{
     height: auto;
     display: block;
     object-fit: contain; /* Ensures proper aspect ratio */
+    opacity: 1;
 }
+
 /*.logo-img {
     position: relative;
 }
