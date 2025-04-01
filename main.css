@@ -181,7 +181,7 @@ body{
   max-width: 900px; /* Prevents text from becoming too wide on large screens */
 }
 
-#quote {
+.quote {
     text-align: center;
     font-family: 'Charm':
     font-size: 60px;
