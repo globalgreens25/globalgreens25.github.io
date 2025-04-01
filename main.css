@@ -332,7 +332,7 @@ body{
 .container{
     width: 85%;
     margin: auto;
-    margin-top: 15vh;
+    /*margin-top: 15vh;*/
 }
 .container h1{
     text-align: center;
