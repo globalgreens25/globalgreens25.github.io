@@ -124,8 +124,9 @@ body{
     font-family: 'Charm';
     font-size: 40px;
     max-width: 85%;
-    margin-top:20px;
-    margin: 0 auto;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 /*
 #bannerContainer {
