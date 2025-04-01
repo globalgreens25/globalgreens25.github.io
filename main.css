@@ -192,11 +192,13 @@ body{
   max-width: 900px; /* Prevents text from becoming too wide on large screens */
 }
 
-.centered img {
-  width: 60%; /* Adjust image size */
-  max-width: 600px; /* Prevents it from being too big */
-  display: block; /* Ensures proper spacing */
-  margin: 20px auto 0 auto;
+.logo-img {
+    width: 150px; /* Adjust as needed */
+    max-width: 200px; 
+    display: block;
+    margin: 0 auto 20px auto; /* Centers the image and adds spacing */
+    position: relative; /* Ensures it stays in front of text */
+    z-index: 11; /* Higher than .centered so it's on top */
 }
 
 #sloganHeader{
