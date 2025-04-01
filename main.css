@@ -191,13 +191,18 @@ body{
   max-height:50%;
   max-width: 900px; /* Prevents text from becoming too wide on large screens */
 }
-
 .logo-img {
-    width: 150px; /* Adjust as needed */
-    max-width: 200px; 
-    display: block;
-    margin: 0 auto 20px auto; /* Centers the image and adds spacing */
     position: absolute;
+    top: 30%; /* Move it higher */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}
+
+.logo-img img {
+    width: 150px;
+    max-width: 200px;
+    display: block;
 }
 
 #sloganHeader{
