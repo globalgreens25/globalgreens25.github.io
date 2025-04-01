@@ -197,8 +197,7 @@ body{
     max-width: 200px; 
     display: block;
     margin: 0 auto 20px auto; /* Centers the image and adds spacing */
-    position: relative; /* Ensures it stays in front of text */
-    z-index: 11; /* Higher than .centered so it's on top */
+    position: absolute;
 }
 
 #sloganHeader{
