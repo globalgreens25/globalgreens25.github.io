@@ -166,6 +166,7 @@ body{
     position: absolute;
     top: 0;
     filter: blur(5px);
+    filter: brightness(80%);
 }
 
 /* Centered text */
