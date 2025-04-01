@@ -192,15 +192,12 @@ body{
   max-width: 900px; /* Prevents text from becoming too wide on large screens */
 }
 .logo-img {
-    position: absolute;
-    top: 30%; /* Move it higher */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 11;
+    position: relative;
 }
 
 .logo-img img {
-    width: 150px;
+    width: 150px; /* Ensures logo stays small */
+    height: auto;
     max-width: 200px;
     display: block;
 }
