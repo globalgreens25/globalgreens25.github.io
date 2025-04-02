@@ -128,6 +128,7 @@ body{
     max-width: 400px; 
     height: auto;
     margin-right: 40px;
+    margin-left: 40px;
 }
 
 * {
