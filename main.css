@@ -469,4 +469,7 @@ body{
     .bannerContainer {
         height: 60vh;
     }
+    .locations-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
