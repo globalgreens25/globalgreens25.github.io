@@ -146,6 +146,12 @@ body{
     flex-direction: row-reverse;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
 .menu-button {
     display: block;
     padding: 12px 24px;
