@@ -154,10 +154,10 @@ body{
 
 .menu-button {
     display: block;
-    padding: 12px 24px;
+    padding: 24px 36px;
     background-color: #f1e6c6; 
     color: #635a47;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 30px;
     transition: background 0.3s ease;
     box-shadow: 0 0 10px #4b4536;
