@@ -92,7 +92,7 @@ body{
 
 .subHeader{
     color:rgb(241 239 228);
-    font-size:var(--subHeaderSize);
+    font-size:90px;
     font-family: 'Slackside One';
     letter-spacing:.055vw;
     margin-top:10px;
