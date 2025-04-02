@@ -217,11 +217,18 @@ a:visited, a:link, a:hover, a:active {
     max-width: 600px;
     margin: 40px auto;
     padding: 25px;
-    background: #f9f9f9;
+    background: #f1e6c6;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: #f4f3e4;
+    color: #635a47;
+    transition: transform 0.3s ease;
+}
+
+.contact-container:hover {
+    background-color: #e1d8bd;
+    transform: scale(1.05);
+}
 }
 
 .contact-item {
