@@ -20,6 +20,11 @@ body{
     box-shadow: 0 0 10px #4b4536;
     background-color: #f1e6c6;
     padding: 15px;
+    transition: transform 0.3s ease; 
+}
+
+.grayBox:hover {
+    transform: scale(1.1); 
 }
 
 #stickyHeader{
