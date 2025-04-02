@@ -147,7 +147,7 @@ body{
 }
 
 .menu-button {
-    display: inline-block;
+    display: block;
     padding: 12px 24px;
     background-color: #f1e6c6; 
     color: white;
