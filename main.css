@@ -1,5 +1,5 @@
 :root {
-    --subHeaderSize:min(5.5vw,90px);
+    --subHeaderSize:min(90px);
     --priceTitleSize:min(50px);
     --headerFont:'Krub';
 }
@@ -320,6 +320,10 @@ body{
         flex-direction: column;
         gap: 50px;
     }
+    .mission-container.reversed {
+        flex-direction: row-reverse;
+        gap: 50px;
+    }
 
     .price-row {
         flex-direction: column;
@@ -391,8 +395,11 @@ body{
     .mission-container {
         padding: 10px;
     }
+    .mission-container.reversed {
+        padding: 10px;
+    }
 
     .bannerContainer {
-        height: 60vh;  /* Reduce banner height on small screens */
+        height: 60vh;
     }
 }
