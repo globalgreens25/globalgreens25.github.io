@@ -238,6 +238,17 @@ body{
   left: 0;
   right: 0;
 }
+.smallBannerContainer > img {
+    min-width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0.75;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    filter: blur(3px);
+    filter: brightness(80%);
+}
 
 .bannerContainer video {
     position: absolute;
