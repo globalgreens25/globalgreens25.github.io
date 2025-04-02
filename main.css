@@ -213,6 +213,16 @@ a:visited, a:link, a:hover, a:active {
     color: inherit; 
 }
 
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 .contact-info {
     margin: 20px auto;
     padding: 20px;
