@@ -160,7 +160,7 @@ body{
     font-size: 20px;
     border-radius: 30px;
     transition: background 0.3s ease;
-    box-shadow: 0 0 10px #4b4536;
+    /*box-shadow: 0 0 10px #4b4536;*/
     text-decoration: none;
     margin: 0 auto;
     text-align: center;
