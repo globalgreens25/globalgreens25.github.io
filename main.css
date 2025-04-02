@@ -105,6 +105,27 @@ body{
     margin-left: auto;
 }
 
+.mission-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    max-width: 1200px; /
+    margin: 0 auto; 
+    padding: 20px;
+    gap: 20px; 
+}
+
+.mission-text {
+    flex: 1; 
+    text-align: left; 
+}
+
+.mission-img {
+    width: 40%; 
+    max-width: 400px; 
+    height: auto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -276,101 +297,12 @@ body{
     margin-top: 5px;  /* Reduce top margin */
     margin-bottom: 5px;
 }
-/*.price-col img{
-    float: right;
-    margin-left: 20px;
-    text-align: right;
-    display: block;
-    margin-left: auto;
-    justify-self: end;
-    grid-column: 2;   /* Image on the right (second column) */
-    /*align-self: center;*/
-    /*margin-top: 100px;
-    width: 150px;  /* Increase the width of the image */
-    /*height: auto;
-}*/
-.price-col button {
-    font-family: 'Poppins';
-    font-weight: 800;
-    width: 100%;
-    padding: 14px 0;
-    background: transparent;
-    color: #fff;
-    font-size: 15px;
-    border: none;
-    border-radius: 6px;
-    margin-top: 30px;
-    cursor: pointer;
-} 
+
 
 #expPriceOpt{
     margin-top:50px;
     margin-bottom:50px;
 }
-
-#expPriceOpt button{
-    background:rgba(255,255,255,0.1);
-}
-
-
-
-#comPriceOpt h2{
-    color: white;
-    text-shadow: 0 0 30px rgb(235 157 255);
-    letter-spacing: 1px;
-}
-
-#comPriceOpt button{
-    background: rgb(223 95 255);
-    color: rgb(20,20,20);
-    box-shadow: 0 0 50px rgb(223 95 255 / 72%);
-}
-
-
-
-.testimonial{
-    width:33%;
-    margin:auto;
-}
-
-.testimonialConnector{
-    background-color: rgb(151 149 189);
-    width:2px;
-    height: 10vh;
-    margin: auto;
-}
-
-.testimonial img{
-    width:80px;
-    border-radius: 100%;
-    opacity: .6;
-    margin-right: 15px;
-}
-
-
-.testimonialCite{
-    display: grid;
-    align-content: center;
-}
-.testimonialCite p{
-    margin: 0;
-}
-.testimonialName{
-    font-family: var(--headerFont);
-    font-size: 25px;
-}
-
-.testimonial span{
-    font-family: var(--headerFont);
-    font-size: 50px;
-}
-
-
-.sourceSection p{
-    word-wrap: wrap;
-    word-break: break-all;
-}
-
 
 
 #footer{
@@ -390,23 +322,4 @@ body{
     width:40px;
     margin-left: 10px;
     cursor: pointer;
-}
-
-/*images*/
-#parallaxEarth{
-    max-width:1424px;
-    width:80vw;
-    position: sticky;
-    top:0;
-    left:calc((100vw - min(1424px,80vw))/2);
-    opacity: .4;
-    z-index: -1;
-    pointer-events: none;
-}
-
-
-
-.imageCredit{
-    opacity: .3;
-    text-align: center;
 }
