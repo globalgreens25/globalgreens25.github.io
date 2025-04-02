@@ -194,7 +194,7 @@ body{
 
 .logo-img {
     position: absolute;
-    top: 25%; /* Adjust to move the logo higher/lower */
+    top: 30%; /* Adjust to move the logo higher/lower */
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
