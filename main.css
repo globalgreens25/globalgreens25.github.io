@@ -149,17 +149,18 @@ body{
 .menu-button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #ff6600; 
+    background-color: #f1e6c6; 
     color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
+    font-size: 25px;
+    border-radius: 15px;
     transition: background 0.3s ease;
+    border: 3px solid #a08753;
+    box-shadow: 0 0 10px #4b4536;
+    margin: 20px auto;
 }
 
 .menu-button:hover {
-    background-color: #e65c00;
+    background-color: #e1d8bd;
 }
 
 * {
