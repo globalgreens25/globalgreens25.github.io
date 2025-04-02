@@ -189,7 +189,7 @@ body{
 }
 
 .location-box:hover {
-    transform: scale(1.05); 
+    background-color: #e1d8bd;
 }
 
 .location-box img {
