@@ -321,7 +321,7 @@ body{
         gap: 50px;
     }
     .mission-container.reversed {
-        flex-direction: row-reverse;
+        flex-direction: column;
         gap: 50px;
     }
 
