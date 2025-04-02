@@ -227,7 +227,6 @@ a:visited, a:link, a:hover, a:active {
 }
 
 .contact-container:hover {
-    background-color: #e1d8bd;
     transform: scale(1.05);
 }
 }
