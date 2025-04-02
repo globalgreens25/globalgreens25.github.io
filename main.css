@@ -171,6 +171,34 @@ body{
     background-color: #e1d8bd;
 }
 
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.location-box {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.location-box img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.location-box p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 * {
     margin: 0;
     padding: 0;
