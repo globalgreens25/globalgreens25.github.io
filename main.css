@@ -113,7 +113,7 @@ body{
     max-width: 1200px; /
     margin: 0 auto; 
     padding: 20px;
-    gap: 200px; 
+    gap: 150px; 
 }
 
 .mission-text {
@@ -128,11 +128,13 @@ body{
     max-width: 400px; 
     height: auto;
     margin-right: 40px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .mission-container.reversed {
     flex-direction: row-reverse;
+    margin-left: 0; 
+    margin-right: 80px;
 }
 
 * {
