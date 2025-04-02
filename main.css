@@ -131,6 +131,10 @@ body{
     margin-left: 40px;
 }
 
+.mission-container.reversed {
+    flex-direction: row-reverse;
+}
+
 * {
     margin: 0;
     padding: 0;
