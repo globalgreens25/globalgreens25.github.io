@@ -376,7 +376,7 @@ body{
 
 @media (max-width: 480px) {
     #stickyHeader {
-        padding: 8px;
+        padding: 6px;
     }
 
     #headerLogo {
