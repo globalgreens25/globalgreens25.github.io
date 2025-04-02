@@ -314,3 +314,85 @@ body{
     margin-left: 10px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .mission-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .price-row {
+        flex-direction: column;
+    }
+
+    .price-col {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    #headerLogo {
+        font-size: 18px;
+    }
+
+    .bigHeader {
+        font-size: 50px;
+    }
+
+    .subHeader {
+        font-size: 4vw;
+    }
+
+    .quote {
+        font-size: 24px;
+    }
+
+    #stickyHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mission-img {
+        width: 80%;
+        max-width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .price-row {
+        flex-direction: column;
+    }
+
+    .price-col {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #stickyHeader {
+        padding: 10px;
+    }
+
+    #headerLogo {
+        font-size: 20px;
+    }
+
+    .pageLink {
+        font-size: 14px;
+    }
+    .price-col {
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .mission-container {
+        padding: 10px;
+    }
+
+    .bannerContainer {
+        height: 60vh;  /* Reduce banner height on small screens */
+    }
+}
