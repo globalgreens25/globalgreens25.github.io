@@ -436,6 +436,9 @@ body{
         width: 100%;
         margin: 10px 0;
     }
+    .locations-grid {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 480px) {
@@ -468,8 +471,5 @@ body{
 
     .bannerContainer {
         height: 60vh;
-    }
-    .locations-grid {
-        grid-template-columns: repeat(1, 1fr);
     }
 }
