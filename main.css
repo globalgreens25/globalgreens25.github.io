@@ -316,6 +316,11 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
+    #stickyHeader {
+        flex-wrap: wrap; 
+        gap: 5px;
+        padding: 8px 10px;
+    }
     .mission-container {
         flex-direction: column;
         gap: 50px;
@@ -376,7 +381,8 @@ body{
 
 @media (max-width: 480px) {
     #stickyHeader {
-        padding: 6px;
+        gap: 3px; 
+        padding: 6px; 
     }
 
     #headerLogo {
@@ -385,6 +391,8 @@ body{
 
     .pageLink {
         font-size: 14px;
+        padding: 3px 4px;
+        margin: 0 2px;
     }
     .price-col {
         width: 100%;
