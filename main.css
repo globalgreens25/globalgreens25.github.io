@@ -382,7 +382,7 @@ body{
 @media (max-width: 480px) {
     #stickyHeader {
         gap: 3px; 
-        padding: 6px; 
+        padding: 4px; 
     }
 
     #headerLogo {
