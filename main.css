@@ -358,21 +358,20 @@ a:visited, a:link, a:hover, a:active {
     transform: translate(-50%, -50%);  
 }*/
 .mapContainer {
-  position: relative;
-  width: 70vw;
-  max-width: 800px;
-  margin: 60px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+    gap: 150px; 
 }
 
-.mapContainer img {
-  width: 100%; 
-  height: auto; 
-  display: block;
-  object-fit: contain; 
+.mapContainer {
+    width: 45%;
+    max-width: 400px;
+    height: auto;
+    transition: transform 0.3s ease; 
 }
 
 .centered {
