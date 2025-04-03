@@ -97,7 +97,7 @@ body{
     transition: transform 0.3s ease; 
 }
 .bigSmallerHeader{
-    font-size: 80px;
+    font-size: 75px;
     font-family: 'Krub';
     letter-spacing: 1px;
     font-weight: normal;
