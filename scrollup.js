@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("scroll", function () {
     const scrollElements = document.querySelectorAll(".scroll-up");
 
     function handleScroll() {
