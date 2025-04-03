@@ -571,6 +571,6 @@ a:visited, a:link, a:hover, a:active {
         height: 60vh;
     }
     .locations-grid {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
 }
