@@ -335,14 +335,14 @@ a:visited, a:link, a:hover, a:active {
     filter: brightness(80%);
 }
 
-.mapContainer {
+/*.mapContainer {
   position: relative;
   text-align: center;
   width: 70vw;
   max-width: 800px;
   height: 50vh;
   overflow: hidden;
-  height: 50vh; /
+  height: 50vh;
   margin: 20px auto;
 }
 
@@ -356,6 +356,23 @@ a:visited, a:link, a:hover, a:active {
     top: 50%;   
     left: 50%;  
     transform: translate(-50%, -50%);  
+}*/
+.mapContainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 70vw; 
+  max-width: 800px; 
+  height: 50vh;
+  margin: 20px auto; 
+  overflow: hidden; 
+  position: relative;
+}
+
+.mapContainer img {
+  width: 100%; 
+  height: auto; 
+  object-fit: contain; 
 }
 
 .centered {
