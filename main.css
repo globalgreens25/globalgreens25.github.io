@@ -533,6 +533,10 @@ a:visited, a:link, a:hover, a:active {
         width: 100%;
         margin: 10px 0;
     }
+    .locations-grid {
+        grid-template-columns: repeat(2, 1fr);  
+        gap: 10px; 
+    }
 }
 
 @media (max-width: 480px) {
@@ -565,5 +569,8 @@ a:visited, a:link, a:hover, a:active {
 
     .bannerContainer {
         height: 60vh;
+    }
+    .locations-grid {
+        grid-template-columns: 1fr; 
     }
 }
