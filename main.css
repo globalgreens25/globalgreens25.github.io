@@ -335,6 +335,20 @@ a:visited, a:link, a:hover, a:active {
     filter: brightness(80%);
 }
 
+.mapContainer {
+  min-width: 100vw;
+  height: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mapContainer > img {
+    min-width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
 .centered {
   position: absolute;
   top: 50%;
