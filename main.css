@@ -340,12 +340,10 @@ a:visited, a:link, a:hover, a:active {
   text-align: center;
   width: 70vw;
   max-width: 800px;
-  height: 50vw;
+  height: 50vh;
   object-position: center;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
-  top: 0;
+  margin: 40px auto 0;
   left: 0;
   right: 0;
 }
