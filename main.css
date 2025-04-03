@@ -336,10 +336,17 @@ a:visited, a:link, a:hover, a:active {
 }
 
 .mapContainer {
+  position: relative;
+  text-align: center;
   min-width: 100vw;
-  height: auto;
-  margin-top: 0;
-  padding-top: 0;
+  object-position: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .mapContainer > img {
@@ -347,6 +354,8 @@ a:visited, a:link, a:hover, a:active {
     height: 100%;
     display: block;
     object-fit: cover;
+    position: absolute;
+    top: 0;
 }
 
 .centered {
