@@ -1,39 +1,17 @@
-const FADESPEED = 50;
-let currentlyFading = {};
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollElements = document.querySelectorAll(".scroll-up");
 
-function fade(elementId,speed,type,func = function(){}){
-    if(elementId in currentlyFading){
-        clearInterval(currentlyFading[elementId]);
+    function handleScroll() {
+        scrollElements.forEach((el) => {
+            const elementTop = el.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+
+            if (elementTop < windowHeight * 0.9) { 
+                el.classList.add("show");
+            }
+        });
     }
-    let opacity = 0;
-    if(type == "out")opacity = 1;
 
-    
-    currentlyFading[elementId] = setInterval(function(){
-        if(opacity <= 0)opacity = 0;
-        
-        try{
-            document.getElementById(elementId).style["opacity"] = opacity;
-        }catch{
-            clearInterval(currentlyFading[elementId]);
-            delete currentlyFading[elementId];   
-        }
-        
-        
-        
-        if((opacity >= 1 && type=="in") || (opacity <= 0 && type=="out")){
-            clearInterval(currentlyFading[elementId]);
-            delete currentlyFading[elementId];
-            func();
-        }
-        if(type == "in") opacity += 1/speed;
-        else opacity -= 1/speed;
-    },10);
-}
-
-function fadeSwapImg(elementId,src,speed){
-   fade(elementId,speed,"out",function(){
-       document.getElementById(elementId).setAttribute("src",src);
-       fade(elementId,speed,"in");
-   });
-}
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+});
