@@ -338,9 +338,8 @@ a:visited, a:link, a:hover, a:active {
 .mapContainer {
   position: relative;
   text-align: center;
-  min-width: 100vw;
+  min-width: 70vw;
   object-position: center;
-  height: 100vh;
   overflow: hidden;
   margin: 0;
   padding: 0;
